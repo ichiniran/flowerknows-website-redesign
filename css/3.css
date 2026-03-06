@@ -1,0 +1,12 @@
+.carousel-inner {
+  overflow: hidden;
+}
+
+.carousel-inner.d-flex {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.carousel-item {
+  transition: transform 0.5s ease;
+}

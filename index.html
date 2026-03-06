@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Knows</title>
+    <link rel="icon" type="image/x-icon" href="images/iconlog.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.3.1/swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body >
+<!--cursor-->
+<div id="cursor" style="transform: translate(95px, 186px);">
+  <div class="custom-cursor" ></div>
+</div>
+<!--cursor-->
+
+<!--Scolling infinite-->
+<div class="loop">
+  <div class="text-loop">
+    <p>Free Shipping On Orders Over $100</p>
+    <p>Free Shipping On Orders Over $100</p>
+    <p>Free Shipping On Orders Over $100</p>
+    <p>Free Shipping On Orders Over $100</p>
+    <p>Free Shipping On Orders Over $100</p>
+  </div>
+  <div class="text-loop">
+    <p>Free Shipping On Orders Over $100</p>
+    <p>Free Shipping On Orders Over $100</p>
+    <p>Free Shipping On Orders Over $100</p>
+    <p>Free Shipping On Orders Over $100</p>
+    <p>Free Shipping On Orders Over $100</p>
+  </div>
+</div>
+<!--Nav Bar-->
+<div id="sentinel"></div>
+<div class="navbar">
+ <div class="bar">
+    <!-- ซ้าย -->
+    <div class="tab1">
+      <div class="hamburger">
+        <div class="menu">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </div>
+      <a href="#" class="hide">NEW</a>
+      <a href="#" class="hide">SHOP ALL</a>
+    </div>
+
+    <!-- กลาง -->
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo">
+    </div>
+
+    <!-- ขวา -->
+    <div class="tab3">
+      <a href="#" class="hide">Login</a>
+      <a href="#" class="cart">Cart</a>
+    </div>
+  </div>
+</div>
+<!--sidebar-->
+<div class="show" id="aside">
+    <div class="asideCont">
+        <div class="menutab"  >
+            <div class="top-wrapper">
+            <div class="top">
+                <a href="" class="btnClose"><img src="images/icon/aside_close.svg"></a>
+                <div class="logtab">
+                    <a href="#" >LOGIN</a>
+                    <a href="#">SIGN UP</a>
+                    <div class="tri bounce"></div>
+                <div class="ballon bounce">Sign up in 1 second</div>
+                </div>
+            </div>
+           </div>
+            <div class="scrollcont">
+                <div class="slideCatelist">
+                    <!-- Shop -->
+                    <div class="shop">
+                        <div><a href="#"><span>#</span>SHOP</a></div>
+                        <div class="toggle-btn" data-target="shop-menu">
+                             <div class="plus-icon"></div>
+                            <div class="minus-icon"></div>
+                        </div>
+                    </div>
+                    <ul class="slidmenu" id="shop-menu">
+                        <li>
+                            <div class="shopspan"><div><a href="#">SHOPALL</a></div><div>all product</div></div>
+                        </li>
+                        <li>
+                            <div class="shopspan"><div><a href="#">FACE</a></div><div>blush primer</div></div>
+                        </li>
+                        <li>
+                            <div class="shopspan"><div><a href="#">EYES</a></div><div>makeup palette</div></div>
+                        </li>
+                        <li>
+                            <div class="shopspan"><div><a href="#">LIPS</a></div><div>lip cream lip gloss</div></div>
+                        </li>
+                        <li>
+                            <div class="shopspan"><div><a href="#">FRAGANCE</a></div><div>perfume</div></div>
+                        </li>
+                        <li>
+                            <div class="shopspan"><div><a href="#">ACCESSORIES & TOOLS</a></div><div>hand mirror</div></div>
+                        </li>
+                    </ul>
+                    <!-- Brand -->
+                    <div class="shop brand">
+                        <div><a href="#"><span>#</span>COLLECTION</a></div>
+                        <div class="toggle-btn" data-target="brand-menu">
+                             <div class="plus-icon"></div>
+                            <div class="minus-icon"></div>
+                        </div>
+                    </div>
+                    <ul class="slidmenu" id="brand-menu">
+                        <li><a href="#">Shell's Jewel</a></li>
+                        <li><a href="#">Strawberry Cupid</a></li>
+                        <li><a href="#">Butterfly Cloud Collar</a></li>
+                        <li><a href="#">Midsummer Fairytales</a></li>
+                        <li><a href="#">Strawberry Rococo</a></li>
+                        <li><a href="#">Little Angel</a></li>
+                        <li><a href="#">Swan Ballet</a></li>
+                        <li><a href="#">Moonlight Mermaid</a></li>
+                        <li><a href="#">Chocolate Wonder-Shop</a></li>
+                        <li><a href="#">Unicorn</a></li>
+                    </ul>
+                    <!-- Community -->
+                    <div class="shop community">
+                        <div><a href="#"><span>#</span>GIFTING</a></div>
+                        <div class="toggle-btn" data-target="community-menu">
+                             <div class="plus-icon"></div>
+                            <div class="minus-icon"></div>
+                        </div>
+                    </div>
+                    <ul class="slidmenu" id="community-menu">
+                        <li><a href="#">VALUE SETS</a></li>
+                        <li><a href="#">OCCASION</a></li>
+                        <li><a href="#">GIFT IDEA</a></li>
+                        <li><a href="#">PRICE</a></li>
+                    </ul>
+                    <!-- SALE -->
+                    <div class="shop sale">
+                        <div><a href="#"><span>#</span>SALE</a></div>
+                        <div class="toggle-btn" data-target="sale-menu">
+                             <div class="plus-icon"></div>
+                            <div class="minus-icon"></div>
+                        </div>
+                    </div>
+                    <ul class="slidmenu" id="sale-menu">
+                        <li><a href="#">Buy 1 Get 1 Free</a></li>
+                        <li><a href="#">Long-Term Offer</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+           <div class="utill">
+                <a href="#" class="">MY CART</a>
+                <a href="#" class="">REWARDS</a>
+            </div>
+        </div>
+        
+    <div class="search-wrap">
+            <div class="searchbox">
+                <input type="text" class="search-input" placeholder="search">
+                <div><span class="del mop"><img src="images/icon/delete.svg" alt="delicon"></span></div>
+                <div><span class="search-icon"><img src="images/icon/search_ic.svg" alt="searchicon"></span></div>
+            </div>
+    </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--sidebar-->
+
+
+
+<!--Carousel banner-->
+<div class="swiper banner-swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="slide-image-wrapper">
+        <a href="https://example.com/product1" target="_blank">
+        <img src="images/bn1.jpg" alt="..."style="width: 100%;"></a>
+        <div class="slide-text">Butterfly Cloud Makeup Palette</div>
+        <div class="slide-text2">Color – 03 Incense Purple Haze</div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="slide-image-wrapper">
+        <a href="https://example.com/product1" target="_blank">
+        <img src="images/bn2.jpg" alt="..."style="width: 100%;"></a>
+        <div class="slide-text">Shell's Jewel 6-Color Makeup Palette </div>
+        <div class="slide-text2">Color – S02 Mermaids Tears</div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="slide-image-wrapper">
+        <a href="https://example.com/product1" target="_blank">
+        <img src="images/bn3.jpg" alt="..." style="width: 100%;"></a>
+        <div class="slide-text">Shell's Jewel All-In Gift Set</div>
+        <div class="slide-text2">Inside The Box – 42 Items </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="slide-image-wrapper">
+        <a href="https://example.com/product1" target="_blank">
+        <img src="images/bn4.jpg" alt="..."style="width: 100%;" ></a>
+        <div class="slide-text ">Strawberry Cupid Collection</div>
+        <div class="slide-text2">Stay Sweet Full Face Set</div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="slide-image-wrapper">
+        <a href="https://example.com/product1" target="_blank">
+        <img src="images/bn5.jpg" alt="..."style="width: 100%;"></a>
+        <div class="slide-text ">Strawberry Cupid Cake Lip Cream</div>
+        <div class="slide-text2">Velvet Cupid’s Trio Set</div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="slide-image-wrapper">
+        <a href="https://example.com/product1" target="_blank">
+        <img src="images/bn6.jpg" alt="..."style="width: 100%;"></a>
+        <div class="slide-text">Midsummer Fairytales Eyebrow Palette</div>
+        <div class="slide-text2">Color - 01 Latte Brown</div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="slide-image-wrapper">
+        <a href="https://example.com/product1" target="_blank">
+        <img src="images/bn7.webp" alt="..."style="width: 100%;"></a>
+        <div class="slide-text">Little Angel Embossed Highlighter</div>
+        <div class="slide-text2">Color – L02 Paradise Lost</div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="slide-image-wrapper">
+         <a href="https://example.com/product1" target="_blank">
+        <img src="images/bn8.webp" alt="..."style="width: 100%;"></a>
+        <div class="slide-text">Little Angel Matte Lipstick</div>
+        <div class="slide-text2">Colre - C01 Starry Cross </div>
+      </div>
+    </div>
+
+     <!-- Indicators -->
+  </div>
+  <div class="swiper-pagination"></div>
+
+
+  <button class="swiper-button-prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="swiper-button-next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+</div>
+<!--Parallax-->
+
+
+  <section class="parallax-section">
+    <div class="box">
+      <img src="images/pallarax-bg.png" />
+    </div>
+    <div class="content">
+      <a href="#"><img src="images/float-img1.png" class="item right" /></a>
+      <a href="#"><img src="images/float-img2.png" class="item left" /></a>
+      <a href="#"><img src="images/float-img3.png" class="item right" /></a>
+      <a href="#"><img src="images/float-img4.png" class="item left" /></a>
+      <a href="#"><img src="images/float-img5.png" class="item right" /></a>
+    </div>
+  </section>
+
+
+<!--Parallax-->
+
+<!--Slide Products-->
+ <div class="container mt-5">
+  <div class="title-bar">
+  <div class="title-head" >
+    <div class="title-caption">
+      <h2 class="title-hashtag"><span>#</span>BEST SELLER</h2>
+    </div>
+    <div class="navigator-group" >
+      <div class="navigator">
+        <div class="swiper-button-prev bestseller-slider-prev"></div>
+        <div class="swiper-button-next bestseller-slider-next"></div>
+      </div>
+      <div ><a href="" class="plus-cover"><img src="images/prdList_plus.svg"></a></span></div>
+      </div>
+    </div>
+
+  <div class="title-subtitle">Check Out Flower Knows Best Products!</div>
+</div>
+  
+  <div class="products-content">
+    <div class="products-slide-wrapper">
+       <div class="swiper bestseller-slider">
+         <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div >
+            <a href="https://example.com/product1" target="_blank">
+              <img src="images/bestseller/bestseller1.jpg" alt="..."></a>
+                <div class="description">Makeup palette</div>
+                <div class="namepro">Swan Ballet Six-Color Makeup Palette</div>
+                <div class="price">$35.00</div>
+            </div>
+        </div>
+          <div class="swiper-slide">
+            <div >
+            <a href="https://example.com/product1" target="_blank">
+              <img src="images/bestseller/bestseller2.jpg" alt="..."></a>
+                <div class="description">Makeup palette</div>
+                <div class="namepro">Strawberry Cupid Makeup Palette</div>
+                <div class="price">$40.00</div>
+            </div>
+        </div>
+          <div class="swiper-slide">
+            <div >
+            <a href="https://example.com/product1" target="_blank">
+              <img src="images/bestseller/bestseller3.jpg" alt="..."></a>
+                <div class="description">Eyeshadow palette</div>
+                <div class="namepro">Little Angel 9-Color Eyeshadow Palette</div>
+                <div class="price"> <span class="discount-percentage">-20%</span>
+                $36.00 <del>$45.00</del></div>
+            </div>
+        </div>
+          <div class="swiper-slide">
+            <div >
+            <a href="https://example.com/product1" target="_blank">
+              <img src="images/bestseller/bestseller4.jpg" alt="..."></a>
+                <div class="description">Fragrances</div>
+                <div class="namepro">Strawberry Cupid Solid Perfume</div>
+                <div class="price">$20.00</div>
+            </div>
+        </div>
+
+          <div class="swiper-slide">
+            <div >
+            <a href="https://example.com/product1" target="_blank">
+              <img src="images/bestseller/bestseller5.jpg" alt="..."></a>
+                <div class="description">Lips</div>
+                <div class="namepro">Strawberry Cupid Cake Lip Cream</div>
+                <div class="price"><span class="discount-percentage">-10%</span>
+                $18.00 <del>$20.00</del></div>
+            </div>
+        </div>
+          <div class="swiper-slide">
+            <div >
+            <a href="https://example.com/product1" target="_blank">
+              <img src="images/bestseller/bestseller6.jpeg" alt="..."></a>
+                <div class="description">Lips</div>
+                <div class="namepro">Swan Ballet Series Shine</div>
+                <div class="price"><span class="discount-percentage">-10%</span>
+                $18.00 <del>$20.00</del></div>
+            </div>
+        </div>
+          <div class="swiper-slide">
+            <div >
+            <a href="https://example.com/product1" target="_blank">
+              <img src="images/bestseller/bestseller7.jpg" alt="..."></a>
+                <div class="description">Blushs</div>
+                <div class="namepro">Strawberry Rococo Series Embossed</div>
+                <div class="price">$26.00</div>
+            </div>
+        </div>
+          <div class="swiper-slide">
+            <div >
+            <a href="https://example.com/product1" target="_blank">
+              <img src="images/bestseller/bestseller8.jpg" alt="..."></a>
+                <div class="description">Lips</div>
+                <div class="namepro">Midsummer Fairytales Collection Lip Gloss</div>
+                <div class="price"> <span class="discount-percentage">-10%</span>
+                $18.00 <del>$20.00</del></div>
+            </div>
+        </div>
+          </div>
+          </div>
+    </div>
+ </div>
+</div>
+
+<!--New Product-->
+
+  <div class="container newproduct">
+  <div class="title-bar">
+  <div class="title-head" >
+    <div class="title-caption">
+      <h2 class="title-hashtag"><span>#</span>NEW</h2>
+    </div>
+    <div class="navigator-group" >
+      <div class="navigator">
+        <div class="swiper-button-prev newproduct-slider-prev"></div>
+        <div class="swiper-button-next newproduct-slider-next"></div>
+      </div>
+      <div ><a href="" class="plus-cover"><img src="images/prdList_plus.svg"></a></span></div>
+      </div>
+    </div>
+
+  <div class="title-subtitle">Check Out Flower Knows New Products!</div>
+</div>
+  
+  <div class="products-content">
+    <div class="products-slide-wrapper">
+       <div class="swiper newproduct-slider">
+         <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div >
+            <a href="https://example.com/product1" target="_blank">
+              <img src="images/new/new1.jpg" alt="..."></a>
+                <div class="description">Shell's Jewel Collection</div>
+                <div class="namepro">Shell's Jewel All-In Gift Set</div>
+                <div class="price"> <span class="discount-percentage">-21%</span>
+                $699.00 <del>$881.00</del></div>
+            </div>
+        </div>
+          <div class="swiper-slide">
+            <div >
+            <a href="https://example.com/product1" target="_blank">
+              <img src="images/new/new2.jpg" alt="..."></a>
+                <div class="description">Makeup palette</div>
+                <div class="namepro">Shell's Jewel 6-Color Makeup Palette</div>
+                <div class="price">$35.00</div>
+            </div>
+        </div>
+          <div class="swiper-slide">
+            <div >
+            <a href="https://example.com/product1" target="_blank">
+              <img src="images/new/new3.jpg" alt="..."></a>
+                <div class="description">Blush</div>
+                <div class="namepro">Shell's Jewel Silk Satin Blush</div>
+                <div class="price">$26.00</div>
+            </div>
+        </div>
+          <div class="swiper-slide">
+            <div >
+            <a href="https://example.com/product1" target="_blank">
+              <img src="images/new/new4.jpg" alt="..."></a>
+                <div class="description">Powder</div>
+                <div class="namepro">Shell's Jewel Baked Powder</div>
+                <div class="price">$35.00</div>
+            </div>
+        </div>
+
+          <div class="swiper-slide">
+            <div >
+            <a href="https://example.com/product1" target="_blank">
+              <img src="images/new/new5.jpg" alt="..."></a>
+                <div class="description">Lips</div>
+                <div class="namepro">Shell's Jewel Nourishing Lip Glaze</div>
+                <div class="price"><span class="discount-percentage">-10%</span>
+                $18.00 <del>$20.00</del></div>
+            </div>
+        </div>
+          <div class="swiper-slide">
+            <div >
+            <a href="https://example.com/product1" target="_blank">
+              <img src="images/new/new6.jpg" alt="..."></a>
+                <div class="description">Fragrances</div>
+                <div class="namepro">Shell's Jewel Perfume</div>
+                <div class="price">$35.00</div>
+            </div>
+        </div>
+          <div class="swiper-slide">
+            <div >
+            <a href="https://example.com/product1" target="_blank">
+              <img src="images/new/new7.jpg" alt="..."></a>
+                <div class="description">Shading & Hilighting</div>
+                <div class="namepro">Shell's Jewel Highlighter Balm Charm</div>
+                <div class="price">$20.00</div>
+            </div>
+        </div>
+          </div>
+          </div>
+    </div>
+ </div>
+</div>
+
+
+<!--Slide Products-->
+
+<!--Polaroid-->
+<div class="polaroid-body">
+ <div class="container mt-5">
+        <div class="polaroid-content">
+            <div class="polaroid-block">
+        <div class="swiper polaroid-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" ><div class="cover-shadow"></div><div class="cover"><img src="images/collection/polaroid1.webp" alt="Social Image 1"></div></div>
+                        <div class="swiper-slide"><div class="cover-shadow"></div><div class="cover" ><img src="images/collection/polaroid2.webp" alt="Social Image 1"></div></div>                
+                        <div class="swiper-slide"><div class="cover-shadow"></div><div class="cover" ><img src="images/collection/polaroid3.webp" alt="Social Image 1"></div></div>
+                        <div class="swiper-slide"><div class="cover-shadow"></div><div class="cover"><img src="images/collection/polaroid4.webp" alt="Social Image 1"></div></div>
+                        <div class="swiper-slide"><div class="cover-shadow"></div><div class="cover"><img src="images/collection/polaroid5.webp" alt="Social Image 1"></div></div>
+                        <div class="swiper-slide"><div class="cover-shadow"></div><div class="cover"><img src="images/collection/polaroid6.webp" alt="Social Image 1"></div></div>
+                    </div>
+                    <div class="swiper-button-prev polaroid-swiper-prev"></div>
+                     <div class="swiper-button-next polaroid-swiper-next"></div>
+                </div>
+                
+            </div>
+            <div class="ARCHIVE-block">
+             <div class="section-title">
+                <span class="about-hashtag">#</span>
+                <span class="title-text">COLLECTION <a href="" class="plus-cover"><img src="images/prdList_plus.svg"></a></span>
+                <div class="about-subtitle">
+                    <p class="subtitle-black">Discover What's New</p>
+                    <p class="subtitle-grey">Let's Explore Our Collections</p>
+                </div>
+            </div>
+               
+            <div class="ARCHIVE-slider">
+                <div class="swiper collection-slider">
+                    <div class="swiper-wrapper">
+
+                        
+                    <div class="swiper-slide">
+                        <div class="slideset" >
+                        <div class="set1" >
+                        <a href="https://example.com/product1" target="_blank">
+                        <img src="images/collection/set1.1.jpg" alt="...">
+                        </a>
+                            <div class="description">Makeup Palette</div>
+                            <div class="namepro">Swan Ballet Six-Color</div>
+                             <div class="price">$35.00</div>
+                        </div>
+                        <div class="set1" >
+                        <a href="https://example.com/product1" target="_blank">
+                        <img src="images/collection/set1.2.webp" alt="...">
+                        </a>
+                            <div class="description">Blush</div>
+                            <div class="namepro">Swan Ballet Embossed</div>
+                             <div class="price">$26.00</div>
+                        </div>
+                        <div class="set1" >
+                        <a href="https://example.com/product1" target="_blank">
+                        <img src="images/collection/set1.3.webp" alt="...">
+                        </a>
+                            <div class="description">Perfume</div>
+                            <div class="namepro">Swan Ballet Perfume</div>
+                             <div class="price">$50.00</div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slideset" >
+                        <div class="set1" >
+                        <a href="https://example.com/product1" target="_blank">
+                        <img src="images/collection/set2.1.jpg" alt="...">
+                        </a>
+                            <div class="description">Blush</div>
+                            <div class="namepro">Little Angel Cream Blush</div>
+                             <div class="price">$26.00</div>
+                        </div>
+                        <div class="set1" >
+                        <a href="https://example.com/product1" target="_blank">
+                        <img src="images/collection/set2.2.jpg" alt="...">
+                        </a>
+                            <div class="description">Eyeshadow Palette</div>
+                            <div class="namepro">Little Angel 9-Color</div>
+                             <div class="price">$45.00</div>
+                        </div>
+                        <div class="set1" >
+                        <a href="https://example.com/product1" target="_blank">
+                        <img src="images/collection/set2.3.webp" alt="...">
+                        </a>
+                            <div class="description">Lipstick</div>
+                            <div class="namepro">Little Angel Matte Lipstick</div>
+                             <div class="price">$20.00</div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slideset" >
+                        <div class="set1" >
+                        <a href="https://example.com/product1" target="_blank">
+                        <img src="images/collection/set3.1.webp" alt="...">
+                        </a>
+                            <div class="description">Mirror</div>
+                            <div class="namepro">Shell's Jewel Hand Mirror</div>
+                             <div class="price">$25.00</div>
+                        </div>
+                        <div class="set1" >
+                        <a href="https://example.com/product1" target="_blank">
+                        <img src="images/collection/set3.2.webp" alt="...">
+                        </a>
+                            <div class="description">Perfume</div>
+                            <div class="namepro">Shell's Jewel Perfume </div>
+                             <div class="price">$50.00</div>
+                        </div>
+                        <div class="set1" >
+                        <a href="https://example.com/product1" target="_blank">
+                        <img src="images/collection/set3.3.webp" alt="...">
+                        </a>
+                            <div class="description">Primer</div>
+                            <div class="namepro">Shell's Jewel Radiance</div>
+                             <div class="price">$30.00</div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slideset" >
+                        <div class="set1" >
+                        <a href="https://example.com/product1" target="_blank">
+                        <img src="images/collection/set4.1.webp" alt="...">
+                        </a>
+                            <div class="description">Lip Cream</div>
+                            <div class="namepro">Strawberry Rococo Cloud Lip Cream</div>
+                             <div class="price">$20.00</div>
+                        </div>
+                        <div class="set1" >
+                        <a href="https://example.com/product1" target="_blank">
+                        <img src="images/collection/set4.2.jpg" alt="...">
+                        </a>
+                            <div class="description">Blush</div>
+                            <div class="namepro">Strawberry Rococo Embossed</div>
+                             <div class="price">$26.00</div>
+                        </div>
+                        <div class="set1" >
+                        <a href="https://example.com/product1" target="_blank">
+                        <img src="images/collection/set4.3.webp" alt="...">
+                        </a>
+                            <div class="description">Hair Clip</div>
+                            <div class="namepro">Violet Strawberry Rococo</div>
+                             <div class="price">$8.00</div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slideset" >
+                        <div class="set1" >
+                        <a href="https://example.com/product1" target="_blank">
+                        <img src="images/collection/set5.1.webp" alt="...">
+                        </a>
+                            <div class="description"> Perfume</div>
+                            <div class="namepro">Strawberry Cupid Perfume</div>
+                             <div class="price">$50.00</div>
+                        </div>
+                        <div class="set1" >
+                        <a href="https://example.com/product1" target="_blank">
+                        <img src="images/collection/set5.2.webp" alt="...">
+                        </a>
+                            <div class="description">Lip Cream</div>
+                            <div class="namepro">Strawberry Cupid Cake</div>
+                             <div class="price">$22.00</div>
+                        </div>
+                        <div class="set1" >
+                        <a href="https://example.com/product1" target="_blank">
+                        <img src="images/collection/set5.3.webp" alt="...">
+                        </a>
+                            <div class="description">Liquid Blush</div>
+                            <div class="namepro">Strawberry Cupid All Day Glow</div>
+                             <div class="price">$22.00</div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slideset" >
+                        <div class="set1" >
+                        <a href="https://example.com/product1" target="_blank">
+                        <img src="images/collection/set6.1.webp" alt="...">
+                        </a>
+                            <div class="description">Hand Mirror</div>
+                            <div class="namepro">Butterfly Cloud Collar</div>
+                             <div class="price">$25.00</div>
+                        </div>
+                        <div class="set1" >
+                        <a href="https://example.com/product1" target="_blank">
+                        <img src="images/collection/set6.2.webp" alt="...">
+                        </a>
+                            <div class="description">Highlighting & Blush Duo Powder</div>
+                            <div class="namepro">Butterfly Cloud Collar Rouge Box</div>
+                             <div class="price">$26.00</div>
+                        </div>
+                        <div class="set1" >
+                        <a href="https://example.com/product1" target="_blank">
+                        <img src="images/collection/set6.3.webp" alt="...">
+                        </a>
+                            <div class="description">Mascara</div>
+                            <div class="namepro">Butterfly Cloud Collar Mascara</div>
+                             <div class="price">$20.00</div>
+                        </div>
+                    </div>
+                    </div>
+
+                   
+                    </div>
+            </div>
+                </div>
+                </div>
+        </div>
+        </div>
+</div>
+<!--Polaroid-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Giftset-->
+<div class="container Ready-To-Gift">
+  <div class="title-bar">
+    <div class="title-head">
+      <div class="title-caption">
+        <h2 class="title-hashtag"><span>#</span>Ready-To-Gift</h2>
+      </div>
+    </div>
+    <div class="title-subtitle">
+      Gift sets are here for you & everyone on your list
+    </div>
+  </div>
+
+  <div class="Ready-To-Gift-content">
+    <div class="products-slide-wrapper">
+      <div class="swiper Ready-To-Gift-slider">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div>
+              <a href="https://example.com/product1" target="_blank">
+                <div class="gf-bg">
+                  <img src="images/giftset1.png" alt="...">
+                </div>
+              </a>
+              <div class="description">Strawberry Cupid Collection</div>
+              <div class="namepro">Pink Pop Set</div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div>
+              <a href="https://example.com/product1" target="_blank">
+                <div class="gf-bg">
+                  <img src="images/giftset2.png" alt="...">
+                </div>
+              </a>
+              <div class="description">Swan Ballet Collection</div>
+              <div class="namepro">Swan Grace Set</div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div>
+              <a href="https://example.com/product1" target="_blank">
+                <div class="gf-bg">
+                  <img src="images/giftset3.png" alt="...">
+                </div>
+              </a>
+              <div class="description">Shell's Jewel Collection</div>
+              <div class="namepro">Mermaid Glow Set</div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div>
+              <a href="https://example.com/product1" target="_blank">
+                <div class="gf-bg">
+                  <img src="images/giftset4.png" alt="...">
+                </div>
+              </a>
+              <div class="description">Little Angel Collection</div>
+              <div class="namepro">Glow Sonata Set</div>
+            </div>
+          </div>
+        </div> 
+      </div> 
+    </div> 
+  </div>
+</div> 
+
+<!--Giftset-->
+
+<!--About-->
+<div class="container mt-5">
+        <div class="about-content">
+            <div class="about-img">
+               <div class="swiper about-swipper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/about/about1.webp" alt="Our Vision"></div>
+                    <div class="swiper-slide"><img src="images/about/about2.webp" alt="A Vibrant Community"></div>
+                    <div class="swiper-slide"><img src="images/about/about3.jpg" alt="Brand Story"></div>
+                </div>
+                <div class="swiper-pagination d-lg-none"></div>
+            </div>
+            </div>
+            <div class="about-text">
+                <div class="section-title">
+                <span class="about-hashtag">#</span>
+                <span class="title-text">ABOUT</span>
+                <div class="about-subtitle">
+                    <p class="subtitle-black">Do you want to know about flower knows?</p>
+                    <p class="subtitle-grey">Let's Live Your Fairytales</p>
+                </div>
+            </div>
+               
+                <div class="about-slider">
+                 <ul class="about-menu list-unstyled p-0 d-none d-lg-block">
+                    <li class="menu-item" data-index="0">
+                    <a href="#" class="menu-link">Our Vision</a>
+                      <button class="plus-button"><img src="images/prdList_plus.svg"></button>
+                    </li>
+                    <li class="menu-item" data-index="1">
+                    <a href="#" class="menu-link">A Vibrant Community</a>
+                      <button class="plus-button"><img src="images/prdList_plus.svg"></button>
+                    </li>
+                     <li class="menu-item" data-index="2">
+                    <a href="#" class="menu-link">Brand Story</a>
+                    <button class="plus-button"><img src="images/prdList_plus.svg"></button>
+                    </li>
+                 </ul>
+                </div>
+                </div>
+
+                <div class="col-12 order-3 d-lg-none">
+                 <ul class="about-menu list-unstyled p-0">
+                    <li class="menu-item" data-index="0">
+                    <a href="#" class="menu-link">Our Vision</a>
+                      <button class="plus-button"><img src="images/prdList_plus.svg"></button>
+                    </li>
+                    <li class="menu-item" data-index="1">
+                    <a href="#" class="menu-link">A Vibrant Community</a>
+                      <button class="plus-button"><img src="images/prdList_plus.svg"></button>
+                    </li>
+                    <li class="menu-item" data-index="2">
+                    <a href="#" class="menu-link">Brand Story</a>
+                      <button class="plus-button"><img src="images/prdList_plus.svg"></button>
+                    </li>
+                 </ul>
+                </div>
+            </div>
+            </div>
+
+<!--About-->
+
+<!--Social-->
+
+<div class="d-none d-lg-block">
+  <div class="container mt-5 mb-5">
+    <div class="social-bar">
+      <div class="social-head">
+        <h2 class="title-hashtag"><span>#</span>SOCIAL</h2>
+        <a href="#" class="follow-btn">follow</a>
+      </div>
+      <div class="title-subtitle">
+        Try searching for Flower Knows on SNS!
+      </div>
+    </div>
+    <div class="social-content">
+      <div class="social-profile-wrapper">
+        <div class="d-flex align-items-center">
+          <div class="profile-image-wrapper">
+            <img src="images/Social/proig.jpg" alt="Profile" class="profile-image">
+          </div>
+          <div class="profile-info">
+            <div class="profile-username">@flowerknows_global</div>
+            <div class="profile-details">Flower Knows</div>
+            <div class="profile-followers">1.6M followers</div>
+          </div>
+        </div>
+      </div>
+      
+        <div class="swiper social-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/Social/igpic1.jpg" alt="Social Image 1"></div>
+            <div class="swiper-slide"><img src="images/Social/igpic2.jpg" alt="Social Image 2"></div>
+            <div class="swiper-slide"><img src="images/Social/igpic3.jpg" alt="Social Image 3"></div>
+            <div class="swiper-slide"><img src="images/Social/igpic4.jpg" alt="Social Image 4"></div>
+            <div class="swiper-slide"><img src="images/Social/igpic5.jpg" alt="Social Image 5"></div>
+            <div class="swiper-slide"><img src="images/Social/igpic6.jpg" alt="Social Image 6"></div>
+            <div class="swiper-slide"><img src="images/Social/igpic7.jpg" alt="Social Image 7"></div>
+            <div class="swiper-slide"><img src="images/Social/igpic8.jpg" alt="Social Image 8"></div>
+            <div class="swiper-slide"><img src="images/Social/igpic9.jpg" alt="Social Image 9"></div>
+          </div>
+        </div>
+    
+    </div> 
+  </div> 
+</div> 
+<!--Social Mobile-->
+<div style="height: 10%;"></div>
+<div class="d-lg-none">
+  <div class="container social-container-mobile">
+    <div class="social-mobile-header">
+      <h2 class="social-hashtag"><span>#</span>SOCIAL</h2>
+      <div class="social-subtitle">Try searching for Flower Knows on SNS!</div>
+    </div>
+    <div class="profile-block">
+      <div class="profile-info-mobile">
+        <div class="profile-image-wrapper">
+          <img src="images/Social/proig.jpg" alt="Profile" />
+        </div>
+        <div class="profile-text">
+          <div class="profile-username">@flowerknows_global</div>
+          <div class="profile-details">Flower Knows</div>
+          <div class="profile-followers">1.6M followers</div>
+        </div>
+      </div>
+      <div class="follow-btn-mobile"><a href="#" class="follow-btn">follow</a></div>
+    </div>
+    <div class="social-grid">
+      <div class="social-images-grid">
+        <img src="images/Social/igpic1.jpg" alt="Social Image 1" />
+        <img src="images/Social/igpic2.jpg" alt="Social Image 2" />
+        <img src="images/Social/igpic3.jpg" alt="Social Image 3" />
+        <img src="images/Social/igpic4.jpg" alt="Social Image 4" />
+        <img src="images/Social/igpic5.jpg" alt="Social Image 5" />
+        <img src="images/Social/igpic6.jpg" alt="Social Image 6" />
+        <img src="images/Social/igpic7.jpg" alt="Social Image 7" />
+        <img src="images/Social/igpic8.jpg" alt="Social Image 8" />
+        <img src="images/Social/igpic9.jpg" alt="Social Image 9" />
+      </div>
+    </div>
+  </div>
+  </div>
+<!--Social-->
+
+
+<!--Footer-->
+<footer class="footer">
+  <div class="footer-column footer-social">
+    <div class="social-left">
+      <img src="images/pallarax-bg.png" alt="Logo">
+    </div>
+    <div class="social-right">
+      <p class="follow-title">Follow us</p>
+      <div class="social-icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fab fa-pinterest-p"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-tiktok"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-column footer-links">
+    <div class="links">
+    <div class="link-group">
+      <p class="link-title">About Flower knows</p>
+      <a href="#">Loyalty Program</a>
+      <a href="#">Brand Story</a>
+      <a href="#">Affiliate Program</a>
+      <a href="#">Student Discount</a>
+      <a href="#">Community</a>
+      <a href="#">Become a Retailer</a>
+    </div>
+    <div class="link-group">
+      <p class="link-title">Customer Care</p>
+      <a href="#">Shipping Policy</a>
+      <a href="#">Refund & Return Policy</a>
+      <a href="#">Promotion Terms & Conditions</a>
+    </div>
+    <div class="link-group">
+      <p class="link-title">Customer Service</p>
+      <a href="#">Track your order</a>
+      <a href="#">Contact us</a>
+      <a href="#">Submit a Fake</a>
+    </div>
+    </div>
+    <div class="imgfooter"><img src="images/payment.png"></div>
+  </div>
+
+  <div class="footer-column footer-about">
+    <p>Maylerescape Limited &nbsp;<span>Unit# 2052 275 New North Road London United Kingdom n1 7aa</span></p>    
+    <p>Customer Support &nbsp;<span>support@flowerknows.co</span></p>    
+    <p>PR Support &nbsp;<span>creatorpr@flowerknows.co</span></p>
+    <div class="footer-textblock3">
+      <div><a href="#">Terms and Conditions</a></div>
+      <div><a href="#">Privacy Policy</a></div>
+      <div><a href="#">FAQ</a></div>
+    </div>
+    <div class="copyright">
+      © 2025, Flower Knows . All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<!--Footer-->
+<div class="lastfooter"><img src="images/payment.png"></div>
+
+<div class="float-icon">
+  <svg data-v-aac1ed7f="" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="none" data-spec="button-icon" viewBox="0 0 20 20" class="" style="vertical-align: baseline !important;"><path fill="#fff" fill-rule="evenodd" d="M4 9.784C4 5.844 4.815 5 8.62 5h2.76C15.185 5 16 5.844 16 9.784s-.815 5.117-4.62 5.117h-.55a.667.667 0 0 1-.096.095L8.543 16.86a.633.633 0 0 1-1.03-.493V14.87C4.654 14.688 4 13.308 4 9.784m6 .883a.667.667 0 1 0 0-1.334.667.667 0 0 0 0 1.334M13.333 10A.667.667 0 1 1 12 10a.667.667 0 0 1 1.333 0m-6 .667a.667.667 0 1 0 0-1.334.667.667 0 0 0 0 1.334" clip-rule="evenodd"></path></svg>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+
+
+
+
+
+
+
+</body>
+</html>
+
