@@ -3,7 +3,6 @@ A frontend redesign concept of the Flower Knows website inspired by modern web U
 
 ## Author Members
 Ms. Warunya Phokjit<br>
-Ms.<br>
+Ms. Timaporn Tongputar<br>
 Mr. Chuchahttanan Lerttasanawong<br>
-Student at  
-Suranaree University of Technology
+Student at  Suranaree University of Technology
